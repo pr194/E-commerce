@@ -1,0 +1,58 @@
+.loginSignup {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 231, 231);
+    position: fixed;
+    top: 0%;
+    left: 0;
+
+}
+
+.Loginsignup {
+    background-color: white;
+    width: 25vw;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: all 0.5s;
+    height: 70vh;
+}
+
+
+.LoginForm {
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoginEmail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.236);
+    border-radius: 2px;
+    height: 2.5vmax;
+    margin: 1vmax;
+    box-sizing: border-box;
+}
+
+.LoginEmail>input {
+    border: none;
+    margin: 0.8vmax;
+    outline: none;
+    font: 300 0.9vmax "Roboto";
+}
+
+.LoginEmail>svg {
+    margin: 1vmax;
+    font-size: small;
+    cursor: pointer;
+}

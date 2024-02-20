@@ -1,0 +1,220 @@
+.loginSignup {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 231, 231);
+    position: fixed;
+    top: 0%;
+    left: 0;
+
+}
+
+.Loginsignup {
+    background-color: white;
+    width: 25vw;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: all 0.5s;
+    height: 70vh;
+}
+
+.toggle {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.toggle>button {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    font: 500 1vmax "Roboto";
+}
+
+.toggle>button:hover {
+    color: tomato;
+}
+
+.LoginForm {
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoginEmail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.236);
+    border-radius: 2px;
+    height: 2.5vmax;
+    margin: 1vmax;
+    box-sizing: border-box;
+}
+
+.LoginEmail>input {
+    border: none;
+    margin: 0.8vmax;
+    outline: none;
+    font: 300 0.9vmax "Roboto";
+}
+
+.LoginEmail>svg {
+    margin: 1vmax;
+    font-size: small;
+    cursor: pointer;
+}
+
+.forget-password {
+    width: 100%;
+}
+
+.forget-password>a {
+    float: right;
+    margin-right: 3.9vmax;
+    margin-top: 2vmax;
+    text-decoration: none;
+    font: 400 0.9vmax "Roboto";
+}
+
+.lgbutton {
+    margin-top: 2.5vmax;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+
+.lgbutton>button {
+    width: 70%;
+    position: relative;
+    left: 15%;
+    height: 2.5vmax;
+    background-color: tomato;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    font: 500 0.9vmax "Roboto";
+}
+
+.Registerform {
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.RegisterEmail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.236);
+    border-radius: 2px;
+    height: 2.5vmax;
+    margin: 1vmax;
+    box-sizing: border-box;
+}
+
+.RegisterEmail>input {
+    border: none;
+    margin: 0.8vmax;
+    outline: none;
+   background-color: #fff;
+    font: 300 0.9vmax "Roboto";
+}
+
+.RegisterEmail>svg {
+
+    margin: 1vmax;
+    font-size: small;
+    cursor: pointer;
+
+
+}
+
+.lgbutton:hover {
+    transform: scale(1.1);
+}
+
+.avatar {
+    display: flex;
+    margin-top: 1vmax;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar>img {
+    border: 2px solid grey;
+    border-radius: 100%;
+    width: 2.3vmax;
+    height: 2.3vmax;
+}
+
+.avatar>input {
+    border: 1px solid rgba(0, 0, 0, 0.236);
+    width: 10vw;
+    height: 2vmax;
+    border-radius: 2px;
+}
+
+.avatar>input::file-selector-button {
+    border: none;
+    margin-top: 0.3vmax;
+    background-color: #fff;
+    text-align: center;
+    font: 500 0.9vmax "Roboto";
+    padding: 0.1vmax;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .Loginsignup {
+        font: 500 10vmax "Roboto";
+    }
+
+    .Loginsignup {
+        width: 90vw;
+        height: 50vh;
+        margin: 2.9vmax;
+        border-radius: 2px;
+
+    }
+
+    .LoginForm {
+        width: 100%;
+    }
+
+    .Registerform {
+        width: 100%;
+    }
+
+    .lgbutton {
+        width: 45vw;
+    }
+
+    .RegisterEmail>svg {
+        margin: 1vmax;
+        font-size: small;
+    }
+
+    .LoginEmail>svg {
+        margin: 1vmax;
+        font-size: small;
+    }
+
+    .lgbutton {
+        margin: 0;
+        width: 35vw;
+        box-sizing: border-box;
+        height: 2vmax;
+        display: flex;
+
+    }
+
+}

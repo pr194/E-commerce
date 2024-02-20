@@ -1,0 +1,10 @@
+.SpeedIcon{
+    position: fixed;
+    top: 3vmax;
+    right: 3vmax;
+}
+.speedDialIcon{
+    height: 56px;
+    width: 56px;
+    border-radius: 100%;
+}
